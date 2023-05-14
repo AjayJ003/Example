@@ -1,0 +1,56 @@
+body{
+    background-color: #bce7f5;
+    display: grid; 
+    justify-items: center;
+}
+.Heading{
+    font-family: 'Sofia', Courier, monospace;
+    font-size: 35px;
+}
+.outerWindow{
+    height: 70vmin;
+    width: 65vmin;
+}
+.gameScore{
+    display: flex;
+    height: 8%;
+    width: 100%;
+    background-color: #057aa1;
+    border-top-left-radius:5px ;
+    border-top-right-radius:5px ;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-family: 'Sofia', Courier, monospace;
+    font-size: 25px;
+}
+.playBoard{
+    display: grid;
+    height: 84%;
+    width: 100%;
+    background-color: #0abdf7;
+    grid-template: repeat(30, 1fr) / repeat(30, 1fr);
+
+}
+.food{
+    background: red;
+    border-radius: 10px;
+}
+.snake{ 
+    background-color:green;
+    border-radius: 3px;
+}
+.exit{
+    display: grid;
+    background-color: #057aa1;
+    height: 8%;
+    width: 100%;
+    border-bottom-left-radius:5px ;
+    border-bottom-right-radius:5px ;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-family: 'Sofia', Courier, monospace;
+    font-size: 25px;
+}
+a{
+    color: black;
+}
